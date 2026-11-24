@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Tauri & Rust
+src-tauri/target/
+src-tauri/gen/
+**/*.rs.bk
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# macOS & Editors
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+.idea/
